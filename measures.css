@@ -5,25 +5,21 @@
     /* Use for all paragraphs */
     --measureLineHeightRelax: 150%;    
     /* Use for titles */
-    --measureFontSizeH1: 36px;    
+    --measureFontSize8: 36px;    
     /* Use for titles */
-    --measureFontSizeH2: 28px;    
+    --measureFontSize7: 28px;    
     /* Use for titles */
-    --measureFontSizeH3: 22px;    
+    --measureFontSize6: 22px;    
     /* Use for titles */
-    --measureFontSizeH4: 18px;    
-    /* Use for titles */
-    --measureFontSizeH5: 16px;    
-    /* Use for titles */
-    --measureFontSizeH6: 14px;    
+    --measureFontSize5: 18px;    
+    /* Use for titles and paragraph text */
+    --measureFontSize4: 16px;    
+    /* Use for titles and paragraph text */
+    --measureFontSize3: 14px;    
     /* Use for paragraph text */
-    --measureFontSizeParagraphL: 16px;    
-    /* Use for paragraph text */
-    --measureFontSizeParagraphM: 14px;    
-    /* Use for paragraph text */
-    --measureFontSizeParagraphS: 12px;    
+    --measureFontSize2: 12px;    
     /* Use for sub text */
-    --measureFontSizeMicro: 10px;    
+    --measureFontSize1: 10px;    
     /* Use as a standard border width */
     --measureBorderWidthThin: 1px;    
     /* Use for focus and emphasised borders */
