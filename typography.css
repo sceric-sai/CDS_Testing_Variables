@@ -418,14 +418,14 @@
   
 }    
 
-.typographyTypographyTestWithTokens 
+.typographyTypographyTestWithTokensUpdated 
  {
   
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--measureFontSizeH3);
+  line-height: var(--measureLineHeightRelax);
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -468,6 +468,34 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyTypographyTestGithubNew 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeH3);
+  line-height: var(--measureLineHeightTight);
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyTypographyTest1234New 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing:  
   0em;
   text-indent: 0px;
