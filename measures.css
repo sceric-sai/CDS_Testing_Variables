@@ -1,0 +1,52 @@
+
+:root {
+    /* Use for all headings and titles */
+    --measureLineHeightTight: 125%;    
+    /* Use for all paragraphs */
+    --measureLineHeightRelax: 150%;    
+    /* Use for titles */
+    --measureFontSize8: 36px;    
+    /* Use for titles */
+    --measureFontSize7: 28px;    
+    /* Use for titles */
+    --measureFontSize6: 22px;    
+    /* Use for titles */
+    --measureFontSize5: 18px;    
+    /* Use for titles and paragraph text */
+    --measureFontSize4: 16px;    
+    /* Use for titles and paragraph text */
+    --measureFontSize3: 14px;    
+    /* Use for paragraph text */
+    --measureFontSize2: 12px;    
+    /* Use for sub text */
+    --measureFontSize1: 10px;    
+    /* Use as a standard border width */
+    --measureBorderWidthThin: 1px;    
+    /* Use for focus and emphasised borders */
+    --measureBorderWidthThick: 2px;    
+    --measureSpace05: 2px;    
+    --measureSpace1: 4px;    
+    --measureSpace2: 8px;    
+    --measureSpace3: 12px;    
+    --measureSpace4: 16px;    
+    --measureSpace5: 20px;    
+    --measureSpace6: 24px;    
+    --measureSpace8: 32px;    
+    --measureSpace10: 40px;    
+    --measureSpace12: 48px;    
+    /* Use for basic components */
+    --measureBorderRadiusSmall: 3px;    
+    /* Use for modifiable components and for panels */
+    --measureBorderRadiusMedium: 6px;    
+    /* Use for large panels (larger than half of a screen approximatelly) and elevated and emphasised panels */
+    --measureBorderRadiusLarge: 12px;    
+    /* Use for specific components and UI elements */
+    --measureBorderRadiusFull: 1000px;    
+    /* Use for large headings */
+    --measureLetterSpacingSmall: 2%;    
+    /* Use for disabled state for all components */
+    --measureOpacityLarge: 60%;    
+    /* Use for transparent areas */
+    --measureOpacityMedium: 30%;    
+    --measureOpacitySmall: 15%;    
+}
