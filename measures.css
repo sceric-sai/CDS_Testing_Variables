@@ -21,9 +21,9 @@
     /* Use for sub text */
     --measureFontSize1: 10px;    
     /* Use as a standard border width */
-    --measureBorderWidthThin: 1px;    
+    --measureBorderWidth1: 1px;    
     /* Use for focus and emphasised borders */
-    --measureBorderWidthThick: 2px;    
+    --measureBorderWidth2: 2px;    
     --measureSpace05: 2px;    
     --measureSpace1: 4px;    
     --measureSpace2: 8px;    
@@ -44,9 +44,10 @@
     --measureBorderRadiusFull: 1000px;    
     /* Use for large headings */
     --measureLetterSpacingSmall: 2%;    
-    /* Use for disabled state for all components */
+    /* Use for disabled states */
     --measureOpacityLarge: 60%;    
-    /* Use for transparent areas */
+    /* Use for transparent areas and disabled states */
     --measureOpacityMedium: 30%;    
+    /* Use for transparent areas and disabled states */
     --measureOpacitySmall: 15%;    
 }
