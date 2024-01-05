@@ -4,8 +4,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: var(--measureFontSize8);
-  line-height: var(--measureLineHeightTight);
+  font-size: 36px;
+  line-height: 45px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -18,8 +18,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: var(--measureFontSize8);
-  line-height: var(--measureLineHeightTight);
+  font-size: 36px;
+  line-height: 45px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -32,8 +32,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: var(--measureFontSize8);
-  line-height: var(--measureLineHeightTight);
+  font-size: 36px;
+  line-height: 45px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -46,8 +46,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: var(--measureFontSize7);
-  line-height: var(--measureLineHeightTight);
+  font-size: 28px;
+  line-height: 35px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -60,8 +60,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: var(--measureFontSize7);
-  line-height: var(--measureLineHeightTight);
+  font-size: 28px;
+  line-height: 35px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -74,8 +74,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: var(--measureFontSize7);
-  line-height: var(--measureLineHeightTight);
+  font-size: 28px;
+  line-height: 35px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -88,8 +88,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: var(--measureFontSize6);
-  line-height: var(--measureLineHeightTight);
+  font-size: 22px;
+  line-height: 28px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -102,8 +102,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: var(--measureFontSize6);
-  line-height: var(--measureLineHeightTight);
+  font-size: 22px;
+  line-height: 28px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -116,8 +116,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: var(--measureFontSize6);
-  line-height: var(--measureLineHeightTight);
+  font-size: 22px;
+  line-height: 28px;
   letter-spacing:  
   0.02em;
   text-indent: 0px;
@@ -130,8 +130,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: var(--measureFontSize5);
-  line-height: var(--measureLineHeightTight);
+  font-size: 18px;
+  line-height: 22px;
   letter-spacing:  
   0em;
   text-indent: 0px;
@@ -454,6 +454,48 @@
   font-weight: 400;
   font-size: var(--measureFontSize2);
   line-height: var(--measureLineHeightTight);
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyMonoTightRegularL16px_ 
+ {
+  
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyMonoTightRegularM14px_ 
+ {
+  
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyMonoTightRegularS12px_ 
+ {
+  
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
   letter-spacing:  
   0em;
   text-indent: 0px;
