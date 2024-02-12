@@ -1,25 +1,5 @@
 
 :root {
-    /* Use for all headings and titles */
-    --measureLineHeightTight: 125%;    
-    /* Use for all paragraphs */
-    --measureLineHeightRelax: 150%;    
-    /* Use for titles */
-    --measureFontSize8: 36px;    
-    /* Use for titles */
-    --measureFontSize7: 28px;    
-    /* Use for titles */
-    --measureFontSize6: 22px;    
-    /* Use for titles */
-    --measureFontSize5: 18px;    
-    /* Use for titles and paragraph text */
-    --measureFontSize4: 16px;    
-    /* Use for titles and paragraph text */
-    --measureFontSize3: 14px;    
-    /* Use for paragraph text */
-    --measureFontSize2: 12px;    
-    /* Use for sub text */
-    --measureFontSize1: 10px;    
     /* Use as a standard border width */
     --measureBorderWidth1: 1px;    
     /* Use for focus and emphasised borders */
@@ -42,8 +22,6 @@
     --measureBorderRadiusLarge: 12px;    
     /* Use for specific components and UI elements */
     --measureBorderRadiusFull: 1000px;    
-    /* Use for large headings */
-    --measureLetterSpacingSmall: 2%;    
     /* Use for disabled states */
     --measureOpacityLarge: 60%;    
     /* Use for transparent areas and disabled states */

@@ -1,100 +1,5 @@
 
 :root {
-    /* Use for panel (container) and component surface color */
-    --colorSurfaceBase: #ffffff;    
-    /* Use for the UI background */
-    --colorSurfaceBackground: #f0f4f8;    
-    /* Use for emphasised areas in panels */
-    --colorSurfaceOverlay: #f8fafc;    
-    /* Use for hover color over interactive base surfaces */
-    --colorSurfaceBaseHover: #e7ecf1;    
-    /* Use for press color over interactive base surfaces */
-    --colorSurfaceBasePress: #d0d7de;    
-    /* Use for icons on base surface */
-    --colorSurfaceDark: #656c78;    
-    /* Use for very dark elements in light mode */
-    --colorSurfaceContrast: #1b1e22;    
-    /* Use for mid-tone elements and surfaces */
-    --colorSurfaceMidTone: #d0d7de;    
-    /* Use for interactive surfaces in mid-tone */
-    --colorSurfaceMidToneHover: #bac0c7;    
-    /* Use for primary actions and highly emphasised elements of interface */
-    --colorSurfacePrimary: #0074e8;    
-    /* Use for hover over surfaces in primary color */
-    --colorSurfacePrimaryHover: #005ac2;    
-    /* Use for pressed surfaces in primary color */
-    --colorSurfacePrimaryPress: #00439c;    
-    /* Use for icons and white elements on primary surface */
-    --colorSurfaceOnPrimary: #ffffff;    
-    /* Use for hover over interactive base surface in primary tone */
-    --colorSurfacePrimaryLightHover: #e6f7ff;    
-    /* Use for pressed state of interactive base surface in primary tone */
-    --colorSurfacePrimaryLightPress: #a8dfff;    
-    /* Use for non interactive primary elements */
-    --colorSurfaceSubtlePrimary: #e6f7ff;    
-    /* Use for icons and element on subtle primary surfaces */
-    --colorSurfaceOnSubtlePrimary: #005ac2;    
-    /* Use for selected interactive base surfaces */
-    --colorSurfaceSelectedPrimary: #e6f7ff;    
-    /* Use for icons and elements on selected primary surface */
-    --colorSurfaceOnSelectedPrimary: #005ac2;    
-    --colorSurfaceError: #dc2626;    
-    --colorSurfaceErrorHover: #b5161b;    
-    --colorSurfaceErrorPress: #8f0a13;    
-    --colorSurfaceOnError: #ffffff;    
-    --colorSurfaceErrorLightHover: #fff2f0;    
-    --colorSurfaceErrorLightPress: #ffd5cf;    
-    --colorSurfaceSubtleError: #fff2f0;    
-    --colorSurfaceOnSubtleError: #b5161b;    
-    --colorSurfaceSuccess: #008933;    
-    --colorSurfaceSuccessHover: #006529;    
-    --colorSurfaceSuccessPress: #00461f;    
-    --colorSurfaceOnSuccess: #ffffff;    
-    --colorSurfaceSuccessLightHover: #deffe7;    
-    --colorSurfaceSuccessLightPress: #a6eeb9;    
-    --colorSurfaceSubtleSuccess: #deffe7;    
-    --colorSurfaceOnSubtleSuccess: #006529;    
-    --colorSurfaceAccessibleWarning: #a46a00;    
-    --colorSurfaceWarning: #ffb600;    
-    --colorSurfaceWarningHover: #d69200;    
-    --colorSurfaceOnWarning: #25282e;    
-    --colorSurfaceWarningLightHover: #fffce6;    
-    --colorSurfaceWarningLightPress: #fff1a3;    
-    --colorSurfaceSubtleWarning: #fffce6;    
-    --colorSurfaceOnSubtleWarning: #895400;    
-    --colorTextBase: #25282e;    
-    --colorTextSubtle: #656c78;    
-    --colorTextContrast: #ffffff;    
-    --colorTextPrimary: #0074e8;    
-    --colorTextPrimaryHover: #005ac2;    
-    --colorTextOnPrimary: #ffffff;    
-    --colorTextError: #dc2626;    
-    --colorTextOnError: #ffffff;    
-    --colorTextSuccess: #008933;    
-    --colorTextSuccessHover: #006529;    
-    --colorTextOnSuccess: #ffffff;    
-    --colorTextWarning: #a46a00;    
-    --colorTextOnWarning: #25282e;    
-    --colorTextOnSubtlePrimary: #005ac2;    
-    --colorTextOnSubtleError: #b5161b;    
-    --colorTextOnSubtleSuccess: #006529;    
-    --colorTextOnSubtleWarning: #895400;    
-    --colorTextOnSelectedPrimary: #005ac2;    
-    --colorBorderSubtle: #e7ecf1;    
-    --colorBorderBase: #d0d7de;    
-    --colorBorderContrast: #ffffff;    
-    --colorBorderPrimary: #0074e8;    
-    --colorBorderPrimaryHover: #005ac2;    
-    --colorBorderError: #dc2626;    
-    --colorBorderErrorHover: #b5161b;    
-    --colorBorderSuccess: #008933;    
-    --colorBorderWarning: #ffb600;    
-    --colorBorderFocusPrimary: #005ac2;    
-    --colorBorderFocusPrimaryLight: #a8dfff;    
-    --colorBorderFocusError: #b5161b;    
-    --colorBorderFocusErrorLight: #ffd5cf;    
-    --colorBorderFocusSuccess: #006529;    
-    --colorBorderFocusWarning: #895400;    
     --colorCoreBlue100: #e6f7ff;    
     --colorCoreBlue200: #a8dfff;    
     --colorCoreBlue300: #7acaff;    
@@ -181,5 +86,100 @@
     --colorPublicOrange800: #913706;    
     --colorPublicOrange900: #702b04;    
     --colorPublicOrange1000: #562103;    
-    --colorSurfaceWarningPress: #a46a00;    
+    /* Use for panel (container) and component surface color */
+    --colorSurfaceBase: var(--colorNeutralGrayscale100White_);    
+    /* Use for the UI background */
+    --colorSurfaceBackground: var(--colorNeutralGrayscale300);    
+    /* Use for emphasised areas in panels */
+    --colorSurfaceOverlay: var(--colorNeutralGrayscale200);    
+    /* Use for hover color over interactive base surfaces */
+    --colorSurfaceBaseHover: var(--colorNeutralGrayscale400);    
+    /* Use for press color over interactive base surfaces */
+    --colorSurfaceBasePress: var(--colorNeutralGrayscale500);    
+    /* Use for icons on base surface */
+    --colorSurfaceDark: var(--colorNeutralGrayscale900);    
+    /* Use for very dark elements in light mode */
+    --colorSurfaceContrast: var(--colorNeutralGrayscale1500);    
+    /* Use for mid-tone elements and surfaces */
+    --colorSurfaceMidTone: var(--colorNeutralGrayscale500);    
+    /* Use for interactive surfaces in mid-tone */
+    --colorSurfaceMidToneHover: var(--colorNeutralGrayscale600);    
+    /* Use for primary actions and highly emphasised elements of interface */
+    --colorSurfacePrimary: var(--colorCoreBlue600);    
+    /* Use for hover over surfaces in primary color */
+    --colorSurfacePrimaryHover: var(--colorCoreBlue700);    
+    /* Use for pressed surfaces in primary color */
+    --colorSurfacePrimaryPress: var(--colorCoreBlue800);    
+    /* Use for icons and white elements on primary surface */
+    --colorSurfaceOnPrimary: var(--colorNeutralGrayscale100White_);    
+    /* Use for hover over interactive base surface in primary tone */
+    --colorSurfacePrimaryLightHover: var(--colorCoreBlue100);    
+    /* Use for pressed state of interactive base surface in primary tone */
+    --colorSurfacePrimaryLightPress: var(--colorCoreBlue200);    
+    /* Use for non interactive primary elements */
+    --colorSurfaceSubtlePrimary: var(--colorCoreBlue100);    
+    /* Use for icons and element on subtle primary surfaces */
+    --colorSurfaceOnSubtlePrimary: var(--colorCoreBlue700);    
+    /* Use for selected interactive base surfaces */
+    --colorSurfaceSelectedPrimary: var(--colorCoreBlue100);    
+    /* Use for icons and elements on selected primary surface */
+    --colorSurfaceOnSelectedPrimary: var(--colorCoreBlue700);    
+    --colorSurfaceError: var(--colorErrorRed600);    
+    --colorSurfaceErrorHover: var(--colorErrorRed700);    
+    --colorSurfaceErrorPress: var(--colorErrorRed800);    
+    --colorSurfaceOnError: var(--colorNeutralGrayscale100White_);    
+    --colorSurfaceErrorLightHover: var(--colorErrorRed100);    
+    --colorSurfaceErrorLightPress: var(--colorErrorRed200);    
+    --colorSurfaceSubtleError: var(--colorErrorRed100);    
+    --colorSurfaceOnSubtleError: var(--colorErrorRed700);    
+    --colorSurfaceSuccess: var(--colorSuccessGreen600);    
+    --colorSurfaceSuccessHover: var(--colorSuccessGreen700);    
+    --colorSurfaceSuccessPress: var(--colorSuccessGreen800);    
+    --colorSurfaceOnSuccess: var(--colorNeutralGrayscale100White_);    
+    --colorSurfaceSuccessLightHover: var(--colorSuccessGreen100);    
+    --colorSurfaceSuccessLightPress: var(--colorSuccessGreen200);    
+    --colorSurfaceSubtleSuccess: var(--colorSuccessGreen100);    
+    --colorSurfaceOnSubtleSuccess: var(--colorSuccessGreen700);    
+    --colorSurfaceAccessibleWarning: var(--colorWarningYellow800);    
+    --colorSurfaceWarning: var(--colorWarningYellow600);    
+    --colorSurfaceWarningHover: var(--colorWarningYellow700);    
+    --colorSurfaceOnWarning: var(--colorNeutralGrayscale1400);    
+    --colorSurfaceWarningLightHover: var(--colorWarningYellow100);    
+    --colorSurfaceWarningLightPress: var(--colorWarningYellow200);    
+    --colorSurfaceSubtleWarning: var(--colorWarningYellow100);    
+    --colorSurfaceOnSubtleWarning: var(--colorWarningYellow900);    
+    --colorTextBase: var(--colorNeutralGrayscale1400);    
+    --colorTextSubtle: var(--colorNeutralGrayscale900);    
+    --colorTextContrast: var(--colorNeutralGrayscale100White_);    
+    --colorTextPrimary: var(--colorCoreBlue600);    
+    --colorTextPrimaryHover: var(--colorCoreBlue700);    
+    --colorTextOnPrimary: var(--colorNeutralGrayscale100White_);    
+    --colorTextError: var(--colorErrorRed600);    
+    --colorTextOnError: var(--colorNeutralGrayscale100White_);    
+    --colorTextSuccess: var(--colorSuccessGreen600);    
+    --colorTextSuccessHover: var(--colorSuccessGreen700);    
+    --colorTextOnSuccess: var(--colorNeutralGrayscale100White_);    
+    --colorTextWarning: var(--colorWarningYellow800);    
+    --colorTextOnWarning: var(--colorNeutralGrayscale1400);    
+    --colorTextOnSubtlePrimary: var(--colorCoreBlue700);    
+    --colorTextOnSubtleError: var(--colorErrorRed700);    
+    --colorTextOnSubtleSuccess: var(--colorSuccessGreen700);    
+    --colorTextOnSubtleWarning: var(--colorWarningYellow900);    
+    --colorTextOnSelectedPrimary: var(--colorCoreBlue700);    
+    --colorBorderSubtle: var(--colorNeutralGrayscale400);    
+    --colorBorderBase: var(--colorNeutralGrayscale500);    
+    --colorBorderContrast: var(--colorNeutralGrayscale100White_);    
+    --colorBorderPrimary: var(--colorCoreBlue600);    
+    --colorBorderPrimaryHover: var(--colorCoreBlue700);    
+    --colorBorderError: var(--colorErrorRed600);    
+    --colorBorderErrorHover: var(--colorErrorRed700);    
+    --colorBorderSuccess: var(--colorSuccessGreen600);    
+    --colorBorderWarning: var(--colorWarningYellow600);    
+    --colorBorderFocusPrimary: var(--colorCoreBlue700);    
+    --colorBorderFocusPrimaryLight: var(--colorCoreBlue200);    
+    --colorBorderFocusError: var(--colorErrorRed700);    
+    --colorBorderFocusErrorLight: var(--colorErrorRed200);    
+    --colorBorderFocusSuccess: var(--colorSuccessGreen700);    
+    --colorBorderFocusWarning: var(--colorWarningYellow900);    
+    --colorSurfaceWarningPress: var(--colorWarningYellow800);    
 }
