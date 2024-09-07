@@ -1,31 +1,3 @@
 
 :root {
-    /* Use as a standard border width */
-    --measureBorderWidth1: 1px;    
-    /* Use for focus and emphasised borders */
-    --measureBorderWidth2: 2px;    
-    --measureSpace05: 2px;    
-    --measureSpace1: 4px;    
-    --measureSpace2: 8px;    
-    --measureSpace3: 12px;    
-    --measureSpace4: 16px;    
-    --measureSpace5: 20px;    
-    --measureSpace6: 24px;    
-    --measureSpace8: 32px;    
-    --measureSpace10: 40px;    
-    --measureSpace12: 48px;    
-    /* Use for basic components */
-    --measureBorderRadiusSmall: 3px;    
-    /* Use for modifiable components and for panels */
-    --measureBorderRadiusMedium: 6px;    
-    /* Use for large panels (larger than half of a screen approximatelly) and elevated and emphasised panels */
-    --measureBorderRadiusLarge: 12px;    
-    /* Use for specific components and UI elements */
-    --measureBorderRadiusFull: 1000px;    
-    /* Use for disabled states */
-    --measureOpacityLarge: 60%;    
-    /* Use for transparent areas and disabled states */
-    --measureOpacityMedium: 30%;    
-    /* Use for transparent areas and disabled states */
-    --measureOpacitySmall: 15%;    
 }

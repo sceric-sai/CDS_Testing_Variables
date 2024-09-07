@@ -1,33 +1,3 @@
 
 :root {
-    /* Use for panel border */
-    --borderBorderSubtle: var(--measureBorderWidth1) solid var(--colorBorderSubtle);    
-    /* Use for basic component border */
-    --borderBorderBase: var(--measureBorderWidth1) solid var(--colorBorderBase);    
-    /* Use for borders on dark background */
-    --borderBorderContrast: var(--measureBorderWidth1) solid var(--colorBorderContrast);    
-    /* Use for selected or active borders */
-    --borderBorderPrimary: var(--measureBorderWidth1) solid var(--colorBorderPrimary);    
-    /* Use for selected or active borders on hover */
-    --borderBorderPrimaryHover: var(--measureBorderWidth1) solid var(--colorBorderPrimaryHover);    
-    /* Use for borders for components in error status */
-    --borderBorderError: var(--measureBorderWidth1) solid var(--colorBorderError);    
-    /* Use for borders for components in error status on hover */
-    --borderBorderErrorHover: var(--measureBorderWidth1) solid var(--colorBorderErrorHover);    
-    /* Use for borders for components in success status */
-    --borderBorderSuccess: var(--measureBorderWidth1) solid var(--colorBorderSuccess);    
-    /* Use for borders for components in warning status */
-    --borderBorderWarning: var(--measureBorderWidth1) solid var(--colorBorderWarning);    
-    /* Use for focus border around components */
-    --borderFocusPrimary: var(--measureBorderWidth2) solid var(--colorBorderFocusPrimary);    
-    /* Use for focus border around components on dark backgrounds and in combination with primary border */
-    --borderFocusPrimaryLight: var(--measureBorderWidth2) solid var(--colorBorderFocusPrimaryLight);    
-    /* Use for focus border around components in error status */
-    --borderFocusError: var(--measureBorderWidth2) solid var(--colorBorderFocusError);    
-    /* Use for focus border around components in error status on dark backgrounds and in combination with primary border */
-    --borderFocusErrorLight: var(--measureBorderWidth2) solid var(--colorBorderFocusErrorLight);    
-    /* Use for focus border around components in success status */
-    --borderFocusSuccess: var(--measureBorderWidth2) solid var(--colorBorderFocusSuccess);    
-    /* Use for focus border around components in warning status */
-    --borderFocusWarning: var(--measureBorderWidth2) solid var(--colorBorderFocusWarning);    
 }
