@@ -6,8 +6,39 @@ public extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
-        public let brandButton = Color(.sRGB, red: 240/255, green: 233/255, blue: 233/255, opacity: 1) 
-        public let red100 = Color(.sRGB, red: 246/255, green: 16/255, blue: 16/255, opacity: 1) 
-        public let color = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+
+        // button
+
+        // primary
+        public let buttonprimaryBackground = Color(.sRGB, red: 33/255, green: 185/255, blue: 36/255, opacity: 1) 
+
+        // surface
+
+        // primary
+        public let surfaceprimaryIdle = Color(.sRGB, red: 33/255, green: 185/255, blue: 36/255, opacity: 1) 
+        public let surfaceprimaryHover = Color(.sRGB, red: 3/255, green: 64/255, blue: 4/255, opacity: 1) 
+
+        // text
+        public let textOnPrimary = Color(.sRGB, red: 251/255, green: 243/255, blue: 166/255, opacity: 1) 
+
+        // Red
+        public let red100 = Color(.sRGB, red: 230/255, green: 21/255, blue: 21/255, opacity: 1) 
+        public let red200 = Color(.sRGB, red: 186/255, green: 12/255, blue: 12/255, opacity: 1) 
+        public let red300 = Color(.sRGB, red: 120/255, green: 7/255, blue: 7/255, opacity: 1) 
+
+        // Gray
+        public let gray100 = Color(.sRGB, red: 246/255, green: 253/255, blue: 253/255, opacity: 1) 
+        public let gray200 = Color(.sRGB, red: 188/255, green: 209/255, blue: 214/255, opacity: 1) 
+        public let gray300 = Color(.sRGB, red: 64/255, green: 78/255, blue: 77/255, opacity: 1) 
+
+        // Green
+        public let green100 = Color(.sRGB, red: 33/255, green: 185/255, blue: 36/255, opacity: 1) 
+        public let green200 = Color(.sRGB, red: 5/255, green: 120/255, blue: 7/255, opacity: 1) 
+        public let green300 = Color(.sRGB, red: 3/255, green: 64/255, blue: 4/255, opacity: 1) 
+
+        // Neutral
+        public let neutral100 = Color(.sRGB, red: 251/255, green: 246/255, blue: 234/255, opacity: 1) 
+        public let neutral200 = Color(.sRGB, red: 251/255, green: 243/255, blue: 166/255, opacity: 1) 
+        public let neutral300 = Color(.sRGB, red: 244/255, green: 232/255, blue: 113/255, opacity: 1) 
     }
 }
