@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="button_primary_background">#ff21b924</color>
+
+
+    <color name="surface_primary_idle">#ff21b924</color>
+    <color name="surface_primary_hover">#ff034004</color>
+
+    <color name="text_on_primary">#fffbf3a6</color>
+
+    <color name="red_100">#ffe61515</color>
+    <color name="red_200">#ffba0c0c</color>
+    <color name="red_300">#ff780707</color>
+
+    <color name="gray_100">#fff6fdfd</color>
+    <color name="gray_200">#ffbcd1d6</color>
+    <color name="gray_300">#ff404e4d</color>
+
+    <color name="green_100">#ff21b924</color>
+    <color name="green_200">#ff057807</color>
+    <color name="green_300">#ff034004</color>
+
+    <color name="neutral_100">#fffbf6ea</color>
+    <color name="neutral_200">#fffbf3a6</color>
+    <color name="neutral_300">#fff4e871</color>
+
+
+</resources>
