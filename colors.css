@@ -1,0 +1,19 @@
+
+:root {
+    --colorRed100: #e61515;    
+    --colorRed200: #ba0c0c;    
+    --colorRed300: #780707;    
+    --colorGray100: #f6fdfd;    
+    --colorGray200: #bcd1d6;    
+    --colorGray300: #404e4d;    
+    --colorGreen100: #21b924;    
+    --colorGreen200: #057807;    
+    --colorGreen300: #034004;    
+    --colorNeutral100: #fbf6ea;    
+    --colorNeutral200: #fbf3a6;    
+    --colorNeutral300: #f4e871;    
+    --colorSurfacePrimaryIdle: var(--colorGreen100);    
+    --colorButtonPrimaryBackground: var(--colorSurfacePrimaryIdle);    
+    --colorSurfacePrimaryHover: var(--colorGreen300);    
+    --colorTextOnPrimary: var(--colorNeutral200);    
+}
